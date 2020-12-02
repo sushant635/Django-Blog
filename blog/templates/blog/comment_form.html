@@ -1,0 +1,11 @@
+{% extends "blog/base_blog.html" %}
+{% load static %}
+{% block blog %}
+ <h1>New Comment</h1>
+ <form action="" method="POST">
+    
+     {{ form.as_p }}
+     {% csrf_token %}
+     <BUtton type="submit" class="save btn btn-primary">Post Comment</BUtton>
+ </form>
+{% endblock %}

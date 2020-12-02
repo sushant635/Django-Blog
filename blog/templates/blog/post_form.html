@@ -1,0 +1,31 @@
+{% extends "blog/base_blog.html" %}
+{% block blog %}
+
+
+    <div class="container" >
+        <div class="jumbotron">
+
+        <!-- Page Heading -->       
+
+        <!-- Main Content Here -->
+        <div class="card-body p-0">
+            <div class="col-lg-3">
+              <div class="p-5">
+                
+                    <h1 class="h4 text-gray-900 mb-4">Create Post</h1>
+                
+                  <form method="POST" enctype="multipart/form-data" style="height: 650px;">
+                      {{ form.as_p }}
+                      {% csrf_token %}
+                      <button type="submit" class="btn btn-success " style="padding:5px 40px;margin-left: 50px;">Save</button>
+                      <p style=" margin-left: 50px; margin-top: 10px; font-size: 20px;" class="text-center"><a class="small text-Info" href="{% url 'blog:post_list' %}">Back</a></p>
+                  </form>
+             </div>
+         </div>
+     </div>
+     
+
+   
+
+</div>
+{% endblock blog %}

@@ -1,0 +1,116 @@
+{% extends "accounts/base_account.html" %}
+
+<head>
+    {% load static %}
+    <title>Home</title>
+    <!--link rel="stylesheet" href="{% static 'css/home.css' %}"-->
+
+</head>
+{% block content %}
+<div class="bi">
+    <div id="landing-section">
+        <div class="land" style="margin-top: 140px;">
+            <h1 style="font-size: 45px; letter-spacing: 2px; font-weight: 500;">Feel the blogging experience to create
+                your unique and dynamic blog with<p style="color: #0078b4; margin-bottom: 0px; font-size: 60px; margin-top: 30px;"> CodingBlog</p>
+            </h1>
+            <p class="pera" style="color: white; text-shadow: 1px 2px 2px darkblue; ">We provides you a creative and
+                dynamic platform that you need to post your blog, a world class support system and more
+                We provides you a creative and dynamic platform that you need to post your blog. Brootblog is a
+                user-friendly way for people all over the world to create any kind of blog. Our world class support
+                system will be here for you to help you and many more </p>
+        </div>
+    </div>
+    <div id= "cards">
+        <div id= "card" class= "card1">
+            <i class="fas fa-cut icon"></i>
+            <h2>Technical</h2>
+            <p>Post your blog relating to a particular subject, art, or craft, or its techniques involving or concerned with applied and industrial sciences. it may refer to Technical vehicles ,analysis drawing,support and Technical education</p>
+        </div>
+        <div id= "card" class= "card2">
+            <i class="fa fa-paint-brush icon"></i>
+            <h2>Political</h2>
+            <p>Post your blog relating to the government or public affairs of a country.In modern nation states, people often form political parties to represent their ideas. Members of a party often agree to take the same position on many issues </p>
+        </div>
+        <div id= "card" class= "card3">
+            <i class="fa fa-shopping-bag icon"></i>
+            <h2>Educational</h2>
+            <p>Post your blogs relating the education. Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, discussion and directed research.</p>
+        </div>
+        <div id= "card" class= "card4">
+            <i class="far fa-smile icon"></i>
+            <h2>Health</h2>
+            <p>Post your blog relating to your Health. The state of being free from illness or injury. A person's mental or physical condition used to express friendly feelings towards one's companions before drinking.</p>
+        </div>
+    </div>
+    <div id= page3>
+        <div id= "page3i">
+            <h3>Fresh Blog</h3>
+            <h2>Our Blog Store!</h2>
+            <p>Our world class support system will be here for you to help you</p>
+        </div>
+        <div class= "cardp3">
+            <div class= icon-wrapper>
+                <i class="fa fa-camera icon2"></i>
+            </div>
+            <div>
+                <h4 class= "fresh">Clear Focus</h4>
+                <p class= "use">Create your own blog for several types of Categories.</p>
+            </div>
+        </div>
+        <div class= "cardp3">
+        <div class= icon-wrapper>
+            <i class="fa-rocket fa icon2"></i>
+        </div>
+        <div>
+            <h4 class= "fresh">High Quality</h4>
+            <p class= "use">This is the best plateform to get all essential requirements for Creator and Reader.</p>
+        </div>
+        </div>
+        <div class= "cardp3">
+            <div class= icon-wrapper>
+                <i class="fab fa-twitter icon2"></i>
+            </div>
+            <div>
+                <h4 class= "fresh">performance</h4>
+                <p class= "use">This is very good plateform to read and create blogs for several types of user like author and reader.</p>
+            </div>
+        </div>
+        <div class= "cardp3">
+            <div class= icon-wrapper>
+                 <i class="fab fa-weixin icon2"></i>
+            </div>
+            <div>
+                <h4 class= "fresh">Regular content</h4>
+                <p class= "use"> Understand the structure of a blog and what you need to know about .</p>
+            </div>
+        </div>
+    </div>
+    <div id= page4>
+        <div id= "page4i">
+            <h3>Fresh Blog</h3>
+            <h2>Testimonials!</h2>
+            <p>According to experts, any habit can be formed in 21 days. The same statement applies to habit of Reading.</p>
+       </div>
+       <div id= "card4">
+           <div class= "card4i">
+              <img class= "img4" src="data:image/jpeg;base64,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"/>
+              <p>In Python, every symbol you type is essential.You primarily write your code to communicate with other coders, and, to a lesser extent, to impose your will on the computer.</p>
+              <h3>Van Rossum</h3>
+              <h4> creator of the Python programming language</h4>    
+          </div>
+           <div id= "ht" class= "card4i">
+               <img class= "img4" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQDxAQDxAPDw8PEA8QEA8PDw8QDxYQFRUWFhUVFRUYHSggGBomGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGC0dHSAtLS0tKy0tLS0tLS0tLS0tLS0tLS0tNS0tLS0tLS0tLS0rLS0rLS0tLS0tLS0tLS0tK//AABEIAMIBAwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIEAwUGBwj/xABAEAACAQIEAgcFBQYFBQEAAAAAAQIDEQQSITEFQQYTIlFhcYEykaGxwSNCUtHwBxQkYnLhNENzorJjgpLC8TP/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAAgEQEBAAIDAQEBAAMAAAAAAAAAAQIRAyExElFBBCJx/9oADAMBAAIRAxEAPwC0hoSJIyakAxABIiNAMYkMgAwAAGIYANIENIAsOw0iSQEcoWMiiPIBhaFYsRot6Ld7JtK/lfcbws/wSXowKwibRFoBAAAAAIAAAAQhiAGRGxAIYhgRQxASGACAYxDIDGhIYAMQ0ADAAGiaQkicUA4olJqKbk1FJNtt2Vl4mLFYmNKDnN2iv1ZHB8Y4rPFSS2ppvJTjt5vvfiD1uuJ9L4puOGi5/wDVmrR9Fv7zTVOkuJktZtX2UEomKlhVa79F4/UsYfBXf5IpeSNZw2s+EbnHNN1FLfPmNxhKE/aWKTWjytyjazXPZhguGRyu7ts9Xdt/U3GG4ctGl8FZ+aK3kXnAsUakasUm4praS1u+ab8wr4KcNWrx/Etv7F/C8PjBJuKV3d8//hsqijKNtm1bw9SZnFbxVyrImwx2BcX2YvxSd9fDw2KDNJWVmiAACAACABDEAMQ2IBAAAQGICQxiGQAYhgMBIYDQAAEhoiNAZImSJjiyVSVot9ybA4zpPj5Vazpx1hTbikucub/XcyvhsPlilz5k6OHvKUn96Tb7t9S2oamXJk34cf6w0qV2bTA4bWy3MdClqbPBQtqYWuuLuGod6Nzw6PZ15FGG8Wbagkk/eRtLNVhoiElayJtuSFKGxfSv0zUqebR78jU8fwSi1Vjopu0lbaRu6DFxbD58NUsszSz256btehtx/jm5pvtxgABo5wIYgEwAAEIYmAhkRgQAAJEgEgIEhkRoBoYgAkAhgMaIjQGSLHX9iV/wv5EYsMT/APnLyaA53L8W9B04amR2v5aGSmkYZ+uvinSxTpFqjHkY6Urmww9G+yMtNljCQ595taekUiFLD2ijNVhaK8dBoopTvo9kZrXVytTp/Fl6nS0Lzat0VJMs4mVsPWb2VOT+DIQixcSqZcPVf8jXq9PqaYesuXvFxADEauUAwEACAQAIGAAAhgQGFh2JAgACADQWGAANIEADAAAEAATiLGStSm+5fUInPYzFVKrl9pKEG3FRVlG22veRctNOPjufjDRr3lK2rvy1JYbFdZKeWyjT0m2ru/JJc/fyK+DoOElBzk82qWy+G5t8FgYpy0Su4SdubvK7fvRnfltjMp0nQws6kezNpX3UEvqbDDwrU4u1Wm8urT1aS77NkMVTlJKFNqMVvpuytDhc4VJVXVcYuMko5pNJvVNWe6+hSSVe7bah0imo6xjVTWjpST+dvgOl0ywlRU4zq9XKTulOE03ZeXmcdhXUoRm5Sztt5dLNze3xO36GcMpyhkmoykku04r2u8hfWliPGOshGph4ylCSvCc11cWu9KVnbxtqYMJxrFSk11dGS27FTX5GDieCnLCwpxtGdH7GeVPL9m8tst9rZefMr9H+DVVOUuufVuNlStHRrNyfnH/x03G+9K6/126qlj6lOnKdWk5KKu3TnFyS/paVzFjuIxrYaWWM456cKsM8cqlTzpZovVO3NboWPw9aOEac4RlGNnLK5pxbTvZtar9XKHDMDGtRw7nUmk4YirKSUbRvVkoq2mls2/cazXrDLd6jVMiZsVSyTlG6lZ6SWzXJ+4wmjCzQC4gAGIYgEAxAACGAhpAhgFgsMYCHYAAAAAABiAGJDYkBNHMdS88oydlTcrv5HTJnPdIaMus7Dtninbv5P6FM503/AMfLV0rUZ5qtJpPKs8U3q3tq/idFh46X815/qxoOHN5Umsrhdf3N/g3dK5jk6Z3as06tlsl7zDiK99NPiZZxTK1aNtURurzGMFWkn2p2dvZSVoryV9/E6foTvKT2drHLzjezb0XI6To3Vyq11uInXVdDj8K1OVSnltNpyUr2b9Nn+b8LYaGHV79XFPwn/ZFvHSzQai7OJT4firu0t0Wuts8cb8rPFcNOtRnShlpuSSzN3t6IqQwkaNKcIrSNNRjHV2glZK73bbb9TZSrIpYqtkzStdKnO8uSa1V/Ub/iMcdZfV/jlcZ7dm7uCjBvvcYpP5GAjm79wOiTU04s8vrK5fqVwENBUgGACIkhAIAABjsCGAhgAAAAABcTACQhXC4DZEZFgSTNfxuHYhNK7hLXyf8AdIvI1/HsQ40JqPtOLem+VbizcWwy1ZWtVRuTvvZG3wc9Ecxha2zbv4m9wdTQ567cW2VTQqV5slRlvqUa/EHFyfVynCNk3G116c0VaxjrUlN2mlKLs8rSdmddw7AwoRo5032r2bbV2tDlI8TpStvF79qM19DrOH8SjWyqbhdWy6vdE6q8xyrpaOEhDM6cIxc3mm0rXfezC8Os11pJGGrxCWV5YSlpo8uW77lcp4XFT61wqxySsnZPMreZOVinxlO62qNfx+X8O/5qkF6av6I2M9TmON4tyqOn9ynLT+q2v1J452w5stYtahiGjdxJIYkSAQDEAmJjYgEAABNDQguA7AK4yQhDEyAguJgA7hcjcLgO4hXNB0o6RxwsXCnaWIktFuoL8UvoiZNotZeL9JaWHqKjaVSq8qcYJO13ond7u5bhHPdy+8rNeHceVUcU41Y1ZXk1NSk3q3rq34nrvDnGpTjODTjJJprxNZJFN7crVwjozcHtvB98eX5GzwFTQ2fFsD1kNPbjrH8jQ0JWdnp5nLyY6rt4c/qNxTnuu8lShYqUamqMs6hg6ZVinTipJ5de9aHQ8Mrp3SjfJ7Lvfnrc5J4l6Jc3udhwKmoqN9W7a+LJ21mV166PD1U0m0rop46necZLdblunExV7E5eMZe0aldQjKT2im2chJttt7ttvzZt+N4myVNc9ZeS2+PyNOjXinW3L/kZby0CSIomjRgEMRJAIBgBETGJgRALDAYAxEgHcVxASuJiuJsAbFcTZSx3EqVFXqTSf4VrL3EyIXTBicZCkr1JxivF6+45LifS9tNUlkVn2t5f2OOx2PnVd5Sk/V6+Zecf6rc/x2PG+mys4YVa7ddO1l/THm/F/E4mpVcm5SblKTblJu7bfNsxhcvJIrbakdh0C404T/d5vsS1h4d6OOuTo1XCUZxdpRaafigh7kanjHDr/aQWv3kvmT6OcTWJoRmt7Wku58zaxXIpljuL4ZXG7jkYz7jKqnqW+LcNcJdZTV4v2odz71+Rho4fMrrU5MsdXTvwy3NxjjU7S01N1DiTi420y2v3M1sqMl/dFvB0FJrMVsXxyrrsHxK8d7jxOMyxlOzajbbxdl8TXUoxpwcm1GEIuUpN6KKV22bLo3XjjMFXtGyrRq5F97sPsN+Ol7eIwwud7OTP5xtjmqldyk5S3YKRXf8ALqnqu+wRqHVcbj1XnzL67W4smjBCZkUiqUwuRuFyRK4XI3C5Ak2RuK4rkh3AjcAJMQ2JgACNPjOk2FpScHVU5q+kLySfc5LRP1Jk2i3TcGs4jxujQ0lLNP8ABDV+vcctxjpLVmrRXU05Xs4SUs3hnXyRzs65pOP9Uuf46XiXSmpOLVNKlF807z9/I5XEYhybbk2/F3IzrdxgsX6ninp3uRlEmkNoJYb9+g0hy7t33BTp2/WhAaiJomKwHQ9B+L9RiOrk/s62ngp8veepJ8+TPC3pto1qn4nrHRHiv7zh4tvtx7Ml4ohLoIpS0ZajwK8c9HWW7h3+Xj4FSKsdBwlShBNuzkrpdy5NkZYzKdr4clxvTnnhJT/y3fySHR4VNNXWVeaOirV9by7Sf3l7V/HvNB0l4o6SyxteSun4PZnHnjlj/wAd3HnM2h6e8UUaH7pSd5VLKo1+G+kf13HYfs6WSjRj/K2/Vnl+Fw0sRWcndxi1d98n+n8D0TCcSeElh4pRanmg819Lezbzakvca8UV5rNVzfGLUMTiKE3aMK01B80r3jb0aIUMXmdptPS6qLf17zN+0mCeLjWSssRTi3/qQSjL/bkfqcvSxGXQ9DrKdvL7l6dWk1qu0u9flyJ06pzlDiUovRs2lDikJ+0te9aMwy4fxpOX9bRSHcq9fFK6bklukry93P0MlGtGcVKLUovZrYyuNnsaTKXxmuFyFwuVWTuK5G4rgTuIjcAMwm+b0S3Yrmg6b8Q6rCuMXadeSpp/y7zfuVv+4mTaLdOX6S9JZ4icoUpuOHV4pRdnU/mk+58l3HPDISZtJplvazhsRbsvtQftRezX0fiQrQs9Hdcnzt4+JhTLMNVbnyJQxZCSgTiMCGUJQ0MiGWQp0OaftJ6mSSJVqV+0vaXxXcRhK6KpQaAk0NICDib/AKFcQdDEpN2p1bRfcpcn9PcaRGSjOzQ0nb3bC01OSvrCPal5cl6/mbatW+9HVMo9Ap08Rw+lNO9R3VW++eLat5fn4lrF0XQebek32v5X3+RWtMdGpKUb8vqcv0zo9mjLfSpHTzTS+LOjU1Gensy3Xmavi1LrMVRo/dpxdaXc7tKP/FfEpyTeOmnD1ntT4Nwjq6dNNWk+3N+L1b9PoY+ON1IylHTIouHesjun836nacNw0JqpGS7TirPwvr9DScV4RKnKSteMk7FsMdIyz3XK9PcYp0cBJf5iqy/2wucfKtbV3du7Vmx6WYz+GwkNb0cTVXhknBP5p+407kbY3pzZztYVRW01T2aCNdpp3KsNHo7LmuT8V3MnPa5ZRtKOOfeZMPxTqq8bv7PEXzLl1q+8vGS38Yo08ZlbidR5Yv8ADODXvt9SL3Ez16VGd1dbPUdzUdHsX1lGz3g7ej1X1Nrc5LNXTol3NncdyNwISkArgEpqRwP7QcVfEUqfKnScn5zf5RR2KrnmPSnF9ZjK0uSkoLyirfO5ph6zy8UnUI5jDmDMa7immdMsUZFKMjLCoBcqPn36+pHMRz3j5a/QwueoQs5hqRV6wlGoBaUivWVnmW3P8wVQecJOLuMq5sr8GZlMgZiEhqRGbA9B/ZL0g6nEuhN9itrG+2dL6pfA9nxEFKNmrxkrM+WMHipU5xnB5ZwkpRfc07o+kOi3GY4vCUqy+/BXXNS2afk7oVMqNfhzhHTtQW3el3eRLhuAVRurftuEad99Iyk//b4GDjfFervSXtT09C/0aw+Wnnb0lpFfUjS29HQoThWjbVX1a2t4mTjc/ZM9SslOxquP4i0og28U6S1M0asedKs/hJr5Mo0Z3ivIt8e/xGJj+KU/jqanB1OwvAthVeRbcicJ6WKs5EadQvtmtXKvEn2Pd80ZVMrY+X2cvJkUnrquiE0nVS5qEvmdMpHDdF8XlrKPKpC3qtV8mdgqphn62w8WswZir1wdcVWW84FTrhgUos8vxr+1qf6k/wDkwAtirWEBgWQRJABIs09n5P5MwNgBKoJIAAaJAAEau3u+YUQAhP8AGZEZsAJRWJbnsn7HJv8Adaiu7KtKyvorxi/mMAlsOkr/AIyPkdlwd/w9L+n6sAIKr4h/bGm6SPtx8gAJeQ8e/wAXV/qNLhNn6gBOPpkytggAvWbIV8X7EvIAIpGfhD+1of1wO6uAGWbTEmxXACqxXAAA/9k="/>
+               <p> Brootblog is trying to shift the paradigm. They’re catering to those looking for fresh, new, authentic voices. I believe wholeheartedly in their mission.</p>
+               <h3>Brendan Eich</h3>
+               <h4>creator of JavaScript programming language</h4>    
+           </div>
+           <div class= "card4i">
+              <img class= "img4" src="https://mobirise.com/extensions/organicamp/assets/images/face7.jpg"/>
+              <p>In a web full of pseudo thought-leaders, Medium is the one place that I can reliably come to and be better informed in the easiest way possible of the things that matter to me.</p>
+              <h3>PETER GOODMAN</h3>
+              <h4>Blogger</h4>    
+           </div>
+       </div>
+    </div>
+</div>
+{% endblock content %}
